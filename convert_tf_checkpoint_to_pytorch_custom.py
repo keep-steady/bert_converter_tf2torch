@@ -90,5 +90,4 @@ if __name__ == "__main__":
                         help = "Path to the pretrained bert model.")
     args = parser.parse_args()
     convert_tf_checkpoint_to_pytorch(args.bert_model_path)
-
     
