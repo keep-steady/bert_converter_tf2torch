@@ -20,5 +20,5 @@ Then you can convert tf2torch below, your bert model file name after '--bert_mod
 
     python convert_tf_checkpoint_to_pytorch_custom.py --bert_model_path multi_cased_L-12_H-768_A-12
 
-Then you can get a pytorch_model.bin
+Then you can get a 'pytorch_model.bin'
 
